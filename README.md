@@ -1,4 +1,4 @@
-# Учебный проект (новостное приложение)
+# Учебный проект (news app)
 
 - JavaScript и TypeScript
 - React Native CLI
