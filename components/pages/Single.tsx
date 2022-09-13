@@ -9,7 +9,7 @@ type Props = NativeStackScreenProps<RootStackParamList, 'Single'>;
 
 export const Single = ({route}: Props) => {
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={styles.container} edges={['top', 'left', 'right']}>
       <HeaderSingle titleNews={route.params.title} />
       <ScrollView>
         <View style={styles.wrap}>

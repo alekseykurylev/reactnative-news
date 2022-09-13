@@ -19,7 +19,7 @@ export const Main = ({navigation}: Props) => {
   }
 
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={styles.container} edges={['top', 'left', 'right']}>
       <FlatList
         ListHeaderComponent={<HeaderMain />}
         refreshControl={

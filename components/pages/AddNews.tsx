@@ -28,7 +28,7 @@ export const AddNews = ({navigation}: Props) => {
   };
 
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={styles.container} edges={['top', 'left', 'right']}>
       <HeaderPage title="Добавить новость" />
       <ScrollView>
         <View style={styles.form}>
