@@ -1,6 +1,6 @@
 # Учебный проект (news app)
 
-- JavaScript и TypeScript
+- TypeScript
 - React Native CLI
 - React Navigation
 - React Native SVG
